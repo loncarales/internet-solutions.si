@@ -1,0 +1,245 @@
+/*
+Section: Layout
+*/
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0; padding: 1em 3em; border: solid 1px; }
+a img { border: 0 none; }
+abbr { border: 0 none; }
+
+
+
+/* Class selectors
+-----------------------------------------*/
+
+.padd-no-display { display: none; }
+.padd-clear { clear: both; }
+
+
+
+/* Container
+-----------------------------------------*/
+
+div#padd-container { }
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#padd-header-wrapper { width: 960px; margin: 0 auto; }
+
+div#padd-header div.padd-box-title { float: left; }
+div#padd-header div.padd-box-search { float: right; }
+
+div#padd-header h1, div#padd-header p.padd-title { display: block; width: 370px; margin: 0; padding: 0; }
+div#padd-header h1 a, div#padd-header p.padd-title a { display: block; width: 370px; height: 95px; margin: 0; padding: 0; text-indent: -999999px; }
+div#padd-header p.padd-descr { display: none; }
+
+div#padd-header div.padd-box-search p { display: block; margin: 0; padding: 21px 0 0 0; }
+div#padd-header div.padd-box-search span { display: none; }
+div#padd-header div.padd-box-search button { display: none; }
+div#padd-header div.padd-box-search input { border: 0 none; padding: 11px 10px 9px 35px; width: 270px; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#padd-featured-wrapper { width: 960px; margin: 0 auto; }
+div#padd-featured h2 { display: none; }
+div#padd-featured div.padd-box { float: left; }
+
+div#padd-featured div.padd-box-featured { width: 645px; height: 240px; }
+
+div#padd-featured div.padd-box-welcome { width: 315px; margin: -39px 0 0 0; }
+div#padd-featured div.padd-box-welcome h2 { display: block; text-indent: -999999px; height: 31px; margin: 11px 0 11px 57px; padding: 0; }
+div#padd-featured div.padd-box-welcome div.padd-interior { height: 71px; padding: 0 10px 10px 10px; }
+div#padd-featured div.padd-box-welcome p { display: block; margin: 0; padding: 0; }
+
+div#padd-featured div.padd-box-socialnet { width: 315px; height: 145px; }
+div#padd-featured div.padd-box-socialnet h2 { display: block; text-indent: -999999px; height: 31px; margin: 9px 0 9px 10px; padding: 0; }
+div#padd-featured div.padd-box-socialnet div.padd-interior { padding: 0 10px 10px 10px; }
+div#padd-featured div.padd-box-socialnet p { display: block; margin: 0; padding: 0; }
+
+div#padd-featured div.padd-box-socialnet ul { display: block; list-style: none; margin: 10px 0 0 0; padding: 0; }
+div#padd-featured div.padd-box-socialnet ul li { display: block; margin: 0 30px 0 0; padding: 0; float: left; }
+div#padd-featured div.padd-box-socialnet ul li a { display: block; margin: 0 0 10px 0; text-align: center; }
+
+div#padd-featured div.padd-box-socialnet ul li.email { margin: 0; }
+
+
+/* Body
+-----------------------------------------*/
+
+div#padd-body-wrapper { width: 960px; margin: 0 auto; }
+
+div#padd-content { width: 570px; padding: 35px; margin: 0; float: left; }
+div#padd-sidebar { width: 315px; padding: 0; margin: 0; float: right; border-top: 1px solid; }
+div#padd-sidebar-wrapper { width: 313px; margin: 0 0 0 2px; }
+
+
+/* Post Group
+-----------------------------------------*/
+
+div.padd-post-group-index div.padd-post-group-title { display: none; }
+
+div.padd-post-group-result { }
+div.padd-post-group-result div.padd-post-group-title { padding: 0; margin: 0 0 1em 0; }
+div.padd-post-group-result div.padd-post-group-title h2 { display: block; margin: 0; padding: 0; text-align: center; }
+
+
+
+/* Post
+-----------------------------------------*/
+
+div.padd-post-item-result { padding: 0 0 35px 0; position: relative; }
+div.padd-post-item-result a img.header { border: 0 none; float: left; margin: 66px 0 0 0; }
+div.padd-post-item-result div.padd-post-title { padding: 66px 0 0 280px; }
+div.padd-post-item-result div.padd-post-title h3 { display: block; margin: 0; padding: 0; }
+div.padd-post-item-result div.padd-post-entry { margin: 0 0 0 280px; }
+div.padd-post-item-result p.padd-meta { position: absolute; display: block; margin: 0; padding: 0; top: 0; left: 0; height: 31px; width: 570px; }
+div.padd-post-item-result p.padd-meta span { display: block; margin: 0; padding: 0; }
+div.padd-post-item-result p.padd-meta span.padd-no-display { display: none; }
+div.padd-post-item-result p.padd-meta span.date-cat { float: left; padding: 0 0 0 13px; }
+div.padd-post-item-result p.padd-meta span.comment-count { float: right; padding: 0 13px 0 0; }
+
+div.padd-post-group-single div.padd-post-title h1 { display: block; margin: 0 0 1em 0; padding: 0; }
+
+
+
+/* Post Details
+-----------------------------------------*/
+
+div.padd-post-box { margin: 0 0 20px 0; }
+div.padd-post-box-title { margin: 0 0 10px 0; }
+div.padd-post-box h2 { display: block; margin: 0; padding: 0 0 0 45px; height: 50px; border-bottom: 1px solid; }
+
+div.padd-post-box-about-author img { float: left; margin: 0 10px 0 0; }
+
+div.padd-post-box-sb div.padd-interior { height: 62px; min-height: 62px; }
+div.padd-post-box-sb div.padd-interior ul { display: block; list-style: none; margin: 11px 0 0 36px; padding: 0; }
+div.padd-post-box-sb div.padd-interior ul li { display: block; margin: 10px 15px 0 0; padding: 0; float: left; }
+div.padd-post-box-sb div.padd-interior ul li a { display: block; float: left; }
+div.padd-post-box-sb div.padd-interior ul li a img { border: 0 none; }
+
+
+
+/* Comments
+-----------------------------------------*/
+
+ol.padd-comments-list { display: block; list-style: none; margin: 0; padding: 0; }
+ol.padd-comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0; }
+
+div.padd-comment { margin: 0 0 10px 0; }
+div.padd-comment div.padd-comment-author { padding: 10px; }
+div.padd-comment div.padd-comment-avatar { float: left; }
+div.padd-comment div.padd-comment-avatar img { margin: 0 10px 0 0; padding: 4px; }
+div.padd-comment div.padd-comment-meta { float: left; }
+div.padd-comment div.padd-comment-meta span { display: block; margin: 0; padding: 0; }
+div.padd-comment div.padd-comment-actions { float: right; }
+div.padd-comment div.padd-comment-details-interior { padding: 0 10px 10px 10px; }
+div.padd-comment div.padd-comment-details-interior ol, 
+div.padd-comment div.padd-comment-details-interior ul { 
+	padding-top: 1em; padding-bottom: 1em; 
+}
+
+ol.padd-trackbacks-list { margin: 0 0 0 3em; padding: 0; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+div.padd-post-box-reply-title { margin: 0 0 10px 0; border-bottom: 1px solid; }
+div.padd-post-box-reply-title h2 { display: block; margin: 0; padding: 0 0 0 45px; height: 50px; border-bottom: 0 none; float: left; }
+div.padd-post-box-reply-title p.cancel-comment-reply { display: block; float: right; margin: 0; padding: 0; line-height: 50px; }
+
+form#comment-form { display: block; margin: 0; padding: 0; }
+form#comment-form p { display: block; margin: 0 0 20px 0; padding: 0; line-height: 27px; }
+form#comment-form p.input label { display: none; }
+form#comment-form p.input input { width: 390px; padding: 10px; border: 1px solid; }
+form#comment-form p.textarea { display: block; margin: 5px 0 10px 0;  }
+form#comment-form p.textarea label { display: none; }
+form#comment-form p.button { display: block; text-align: left; float: right; margin: 0; padding: 0; }
+form#comment-form p.subscribe-to-comments { margin: 0; padding: 0; float: left; }
+form#comment-form textarea { width: 548px; height: 148px; padding: 5px 10px; border: 1px solid; }
+form#comment-form button { display: block; width: 99px; height: 29px; margin: 0; padding: 0; float: right; border: 0; cursor: pointer; }
+form#comment-form button span { display: none; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#padd-sidebar h2 { display: none; }
+div#padd-sidebar div.padd-box { padding: 0; }
+div#padd-sidebar div.padd-box div.padd-interior { padding: 8px 8px 10px 8px; }
+div#padd-sidebar div.padd-box h3 { display: block; margin: 0; padding: 8px; }
+div#padd-sidebar div.padd-box ul { display: block; margin: 0; padding: 0; list-style-type: none; }
+div#padd-sidebar div.padd-box ul li { display: block; margin: 0 0 8px 0; list-style-type: none; padding: 0; }
+div#padd-sidebar div.padd-box ul li ul { margin: 8px 0 0 16px; }
+
+div#padd-sidebar div.padd-box-group div.padd-box { float: left; }
+div#padd-sidebar div.padd-box-group div.padd-clear { height: 2px; }
+div#padd-sidebar div.padd-box-group div.padd-box-1  { width: 155px; }
+div#padd-sidebar div.padd-box-group div.padd-box-2  { width: 156px; margin: 0 0 0 2px; }
+
+div#padd-sidebar div.padd-box-ads h3 { display: none; }
+div#padd-sidebar div.padd-box-ads div.padd-interior { text-align: center;  padding: 12px 0 15px 0; width: 295px; margin: 0 auto; }
+div#padd-sidebar div.padd-box-ads div.padd-interior img { border: 0 none; vertical-align: top; margin: 0; padding: 10px; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a { display: block; margin: 0 0 5px 0; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads1 { float: left; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads2 { float: right; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads3 { float: left; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads3 img { margin: 0; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads4 { float: right; }
+div#padd-sidebar div.padd-box-ads div.padd-interior a.ads4 img { margin: 0; }
+
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior { padding-bottom: 2px; }
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior ul li { min-height: 57px; margin: 0 0 16px 0; padding: 0; }
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior ul li img { float: left; }
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior ul li span.wpp-post-title { display: block; margin: 0 0 0 67px; }
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior ul li span.post-stats { display: block; margin: 0 0 0 67px; }
+
+div#flickrrss { position: relative; height: 222px; }
+div#flickrrss div.padd-interior { width: 350px; margin: 0; position: absolute; }
+div#flickrrss a { display: block; float: left; margin: 0 35px 19px 0; }
+div#flickrrss img { border: 0 none; }
+
+table#wp-calendar { width: 250px; }
+table#wp-calendar caption { text-align: right; }
+table#wp-calendar th, table#wp-calendar td { border: 1px solid; }
+table#wp-calendar td { text-align: right; padding: 0 6px; }
+table#wp-calendar td.pad { border: 0 none; }
+table#wp-calendar td#prev, table#wp-calendar td#next { border: 0 none; }
+table#wp-calendar td#prev { text-align: left; }
+table#wp-calendar td#next { text-align: right; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#padd-aside { padding: 35px; }
+div#padd-aside div.padd-box { width: 252px; float: left; margin: 0 22px 0 0; }
+div#padd-aside div.padd-box h3 { display: block; margin: 0 0 12px 0; }
+div#padd-aside div.padd-box ul { display: block; margin: 0; padding: 1px 0 0 0; list-style-type: none; }
+div#padd-aside div.padd-box ul li { display: block; margin: 0 0 9px 0; padding: 0 0 10px 0; list-style-type: none; border-bottom: 1px solid; }
+
+div#padd-aside div.padd-box-small { width: 160px; }
+div#padd-aside div.padd-box-archives { margin: 0; }
+
+
+/* Footer
+-----------------------------------------*/
+
+div#padd-footer { width: 890px; margin: 0 auto; padding: 0 35px; }
+div#padd-footer p { display: block; margin: 0; padding: 0; }
+div#padd-footer p.copyright { float: left; }
+div#padd-footer p.annotation { float: right; }

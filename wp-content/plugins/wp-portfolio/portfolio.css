@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+a.showall {
+	text-decoration: none;
+}
+
+.wpp-id {
+	width: 50px;
+}
+
+#wpptable td,#wpptable th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wpptable .wpp-name {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.wpp-thumbnail {
+	width: 130px;
+}
+
+.wpp-thumbnail img {
+	border: 1px solid #CCC;
+	padding: 2px;
+}
+
+.wpp-center {
+	text-align: center;
+}
+
+#wpptable #ordering,#wpptable #websitecount {
+	text-align: center;
+}
+
+ul.wp-group-syntax {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+ul.wp-group-syntax ul {
+	margin-left: 40px;
+	margin-top: 5px;
+	list-style-type: disc;
+}
+
+.wpp-type,.wpp-result {
+	width: 70px;
+}
+
+.wpp-detail {
+	width: 30%;
+}
+
+.wpp-request-date {
+	width: 100px;
+}
+
+/* Styles for ShowHide Advanced Link */
+#wpp-hide-show-advanced {
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
+}
+
+#wpp-hide-show-advanced.hide {
+	border-bottom: 1px solid #1D507D;
+}
+
+#wpp-hide-show-advanced a {
+	text-decoration: none;
+}
+
+#wpp-hide-show-advanced a:hover {
+	text-decoration: underline;
+}

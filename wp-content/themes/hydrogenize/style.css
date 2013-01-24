@@ -1,0 +1,21 @@
+/*
+Theme Name: Hydrogenize WordPress Theme
+Theme URI: http://www.paddsolutions.com/wordpress-theme-hydrogenize/
+Description: Hydrogenize is a 5-in-1 professional free WordPress theme. Packed with a better framework and an admin options panel. Download more <a href="http://www.paddsolutions.com">free WordPress Themes</a>.
+Version: 1.0
+Author: Padd Solutions
+Author URI: http://www.paddsolutions.com
+Tags: fixed width, advertisement ready, valid css, valid xhtml, featured content gallery, twitter, youtube, social bookmarks, popular posts, featured photos, featured video
+*/
+
+@import 'css/required.css';
+@import 'css/typography.css';
+@import 'css/layout.css';
+@import 'css/navigation.css';
+@import 'css/pagination.css';
+@import 'css/color.css';
+@import 'css/jquery.s3slider.css';
+
+
+
+

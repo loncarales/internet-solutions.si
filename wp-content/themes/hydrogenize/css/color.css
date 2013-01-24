@@ -1,0 +1,122 @@
+/*
+Section: Color
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { }
+blockquote { border-color: #999; background: #fff none }
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#padd-header div.padd-box-search input { color: #fff; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#padd-featured { background: #000 none; }
+div#padd-featured h3 a { color: #fff; }
+div#padd-featured p { color: #666; }
+div#padd-featured img { background: #fff none; }
+
+div#padd-featured div.padd-box-welcome { background: transparent url('../images/bg-welcome-title.png') left top no-repeat; }
+div#padd-featured div.padd-box-welcome div.padd-interior { background: #e1e1e4 url('../images/bg-welcome-content.png') left top no-repeat; }
+
+div#padd-featured div.padd-box-socialnet { background: transparent url('../images/bg-socialnet.png') left top no-repeat; }
+div#padd-featured div.padd-box-socialnet img { background: transparent none; }
+
+
+
+/* Body
+-----------------------------------------*/
+
+div#padd-body-wrapper { background: #fff url('../images/bg-body-wrapper.gif') right top repeat-y; }
+div#padd-sidebar { border-top-color: #fff; }
+
+
+
+/* Post Group
+-----------------------------------------*/
+
+
+
+
+
+/* Post
+-----------------------------------------*/
+
+div.padd-post-title h1, div.padd-post-title h1 a { color: #333; }
+div.padd-post-title h3, div.padd-post-title h3 a { color: #333; }
+
+div.padd-post-item-result p.padd-meta { background: #e1e1e4; }
+div.padd-post-item-result p.padd-meta span { color: #999; }
+div.padd-post-item-result p.padd-meta span a { color: #333; }
+
+div.padd-post-box h2 { border-bottom-color: #e7e7e7; }
+div.padd-post-box-about-author h2 { background: transparent url('../images/bg-post-box-author.png') 0 0 no-repeat; }
+div.padd-post-box-sb h2 { background: transparent url('../images/bg-post-box-spread-love.png') 0 0 no-repeat; }
+div.padd-post-box-related h2 { background: transparent url('../images/bg-post-box-related-posts.png') 0 0 no-repeat; }
+div.padd-post-box-comments h2 { background: transparent url('../images/bg-post-box-comments.png') 0 0 no-repeat; }
+div.padd-post-box-trackbacks h2 { background: transparent url('../images/bg-post-box-trackbacks.png') 0 0 no-repeat; }
+div.padd-post-box-reply h2 { background: transparent url('../images/bg-post-box-comment-add.png') 0 0 no-repeat; }
+
+div.padd-comment { background: #f2f2f2 none; }
+div.padd-comment div.padd-comment-author { background: #ccc url('../images/bg-comment-author.gif') bottom left repeat-x; }
+div.padd-comment div.padd-comment-avatar img { background: #fff none; }
+
+div.padd-post-box-reply-title { border-bottom-color: #e7e7e7; }
+
+form#comment-form p.input input { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form small { color: #b7b7b7; }
+form#comment-form textarea { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#padd-sidebar div.padd-box { background: transparent url('../images/bd-sidebar.gif') left bottom repeat-x; }
+div#padd-sidebar div.padd-box h3 { background: #f0f0f0 url('../images/bd-sidebar.gif') left bottom repeat-x; color: #000; text-shadow: 1px 1px #fff; }
+div#padd-sidebar div.padd-box ul li { }
+
+div#padd-sidebar div.padd-box-group { background: transparent url('../images/bd-sidebar-vert.gif') 155px 0 repeat-y; }
+div#padd-sidebar div.padd-box-group div.padd-clear { background: transparent url('../images/bd-sidebar.gif') left bottom repeat-x; }
+div#padd-sidebar div.padd-box-group div.padd-box { background: transparent none; }
+
+div#padd-sidebar div.padd-box-ads div.padd-interior img { background: #cdcdcd none; }
+
+div#padd-sidebar div.padd-box-popular-posts div.padd-interior ul li span.post-stats { color: #999; }
+
+table#wp-calendar th { border-color: #666; background: #666 none; color: #fff; }
+table#wp-calendar td { border-color: #ccc; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#padd-aside { background: #333 none; }
+div#padd-aside div.padd-box h3 { color: #ccc }
+div#padd-aside div.padd-box ul li { color: #666; border-bottom-color: #414141; }
+div#padd-aside div.padd-box ul li a { color: #666; }
+div#padd-aside div.padd-box a { color: #666; }
+div#padd-aside div.padd-box-tweet abbr { color: #999; }
+div#padd-aside div.padd-box-tweet ul li a { color: #999; }
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#padd-footer { background: #333 none; color: #666; }
+div#padd-footer a:link, div#padd-footer a:visited { color: #666; }
+
+
+

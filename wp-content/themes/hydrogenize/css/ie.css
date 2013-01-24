@@ -1,0 +1,15 @@
+/*
+ * Section: IE
+ */
+
+div#padd-sidebar div.padd-box .tabs-nav { /* auto clear */
+    display: inline-block;
+}
+div#padd-sidebar div.padd-box .tabs-nav .tabs-disabled {
+    position: relative; /* fixes opacity */
+    filter: alpha(opacity=40);
+}
+div#padd-sidebar div.padd-box .tabs-nav .tabs-disabled a span {
+    _height: 19px; /* for some reason the height is 1px to less with opacity... */
+    min-height: 19px; /* ...in both IE 6 and 7 */
+}

@@ -1,0 +1,34 @@
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { background: transparent url('images/bg-body.gif') left top repeat; }
+a:link, a:visited { color: #265f70; }
+a:hover, a:active { color: #000; }
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#padd-header { background: transparent url('images/bg-header.gif') left top repeat-x; }
+div#padd-header h1, div#padd-header p.padd-title { background: transparent url('images/site-name.png') left top no-repeat; }
+div#padd-header div.padd-box-search input { background: transparent url('images/input-search.png') left top no-repeat; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#padd-featured { background: transparent url('images/bg-featured.gif') left top repeat-x; }
+div#padd-featured div.padd-box-welcome h2 { background: transparent url('images/title-welcome.png') left top no-repeat; }
+div#padd-featured div.padd-box-socialnet h2 { background: transparent url('images/title-subscribe.png') left top no-repeat; }
+
+.s3sliderImage span strong a:link, .s3sliderImage span strong a:visited { color: #265f70; }
+.s3sliderImage span strong a:hover, .s3sliderImage span strong a:active { color: #fff; }
+
+
+
+/* Body
+-----------------------------------------*/

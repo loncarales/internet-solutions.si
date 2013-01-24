@@ -1,0 +1,53 @@
+
+
+div#padd-header div.padd-box-menu { clear: both; height: 28px; }
+div#padd-header h3 { display: none; }
+
+div#padd-header ul { display: block; margin: 0; padding: 0; list-style: none; height: 28px; float: left; }
+div#padd-header ul li { display: block; margin: 0; padding: 0; float: left; }
+div#padd-header ul li a:link, div#padd-header ul li a:visited, div#padd-header ul li span { 
+	display: block; margin: 0; padding: 0 12px; float: left;
+	font: bold 12px/28px Arial,Helvetica,sans-serif; 
+	color: #fff;
+}
+div#padd-header ul li a:hover, div#padd-header ul li a:active, 
+div#padd-header ul li.current_page_item a:link, div#padd-header ul li.current_page_item a:visited { 
+	background: #333 none;
+}
+div#padd-header ul li span.categories {
+	cursor: pointer;
+}
+
+div#padd-header ul li ul { display: none; background: #fff none; }
+div#padd-header ul li:hover a, div#padd-header ul li.hover a { background: #333 none; }
+div#padd-header ul li:hover span.categories, div#padd-header ul li.hover span.categories { background: #000 none; }
+div#padd-header ul li:hover ul, div#padd-header ul li.hover ul { 
+	display: block; width: 12em; height: auto;
+	position: absolute; margin: 28px 0 0 0px;
+	z-index: 9999;
+	background: #fff none;
+	padding: 0;
+}
+div#padd-header ul li:hover ul li, div#padd-header ul li.hover ul li { 
+	display: block; background: #fff none;
+	float: none; margin: 0; padding: 0; height: 32px;
+}
+div#padd-header ul li:hover ul li a:link, div#padd-header ul li:hover ul li a:visited,
+div#padd-header ul li.hover ul li a:link, div#padd-header ul li.hover ul li a:visited { 
+	display: block; background: #fff none; color: #000; line-height: 32px; 
+	float: none; padding: 0 12px; 
+}
+div#padd-header ul li:hover ul li a:hover, div#padd-header ul li:hover ul li a:active,
+div#padd-header ul li.hover ul li a:hover, div#padd-header ul li.hover ul li a:active,
+div#padd-header ul li.hover ul li.current-cat a:link, div#padd-header ul li.hover ul li.current-cat a:visited { 
+	background: #dedede; height: 32px;
+	color: #000;
+}
+div#padd-header ul li:hover ul li ul, div#padd-header ul li.hover ul li ul { display: none; }
+div#padd-header ul li:hover ul li:hover ul, div#padd-header ul li.hover ul li.hover ul {
+	display: block; height: auto; margin: -32px 0 0 12em;
+}
+
+div#padd-header ul.padd-socialnet { display: block; margin: 0 12px 0 0; padding: 0; height: 28px; float: right; list-style: none; }
+div#padd-header ul.padd-socialnet li { display: block; float: left; margin: 4px 0 0 10px; padding: 0; }
+div#padd-header ul.padd-socialnet li a { margin: 0; padding: 0; }

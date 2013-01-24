@@ -1,0 +1,301 @@
+/*  
+
+Theme Name: Tech9
+Theme URI: http://3oneseven.com/themes/
+Description: Another approach on a magazine like three col fixed theme with custom painting.
+Version: 3.17.1
+Tags: white, three-columns, fixed-width, theme-options, right-sidebar
+Author: miloIIIIVII
+Author URI: http://3oneseven.com/
+
+*/
+
+
+/* ----------------------------------- reset.css */ 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+*{margin:0;padding:0;}
+
+body{background:#fff url(images/01a.jpg) 50% 0 no-repeat;color:#333;font:normal 15px/20px Arial,Tahoma,Helvetica,Sans-Serif;margin:0;padding:0;}
+
+/* ----------------------------------- wrap */
+#wrapper{background:transparent;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+#rapper{clear:both;background:transparent;margin:0;padding:0;width:100%;overflow:hidden;}
+#single #rapper{clear:both;background:transparent;margin:0;padding:0;width:100%;overflow:hidden;}
+#wrap{background:transparent;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+#single{background:#fff url(images/01a.jpg) 50% 0 no-repeat;margin:0 auto;padding:0;width:100%;}
+.inner{background:transparent;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+
+#rap{background:transparent;margin:0;padding:0;width:100%;overflow:auto;}
+#set{background:transparent;margin:0 auto;padding:0;width:980px;overflow:hidden;height:30px;}
+
+#content{width:980px;margin:0 auto;padding:30px 0;background:transparent;overflow:hidden;}
+#row{clear:both;margin:0;padding:0;width:100%;height:220px;background:transparent;}
+#sow{clear:both;width:100%;background:transparent;padding:0;margin:0 auto;display:block;position:relative;z-index:1;overflow:hidden;}
+
+/* ----------------------------------- links */
+a,a:visited{color:#687B72;text-decoration:none;}
+a:hover{text-decoration:none;color:#000;}
+a img{border:none;}
+
+/* ----------------------------------- header */
+#header{background:transparent url(images/sl.jpg) 0 12px no-repeat;width:100%;height:90px;display:block;margin:5px auto 0;padding:0;}
+.head{background:transparent;height:65px;display:inline-block;float:left;margin:0;padding:10px 0 0 40px;}
+.head h1 a,.head h1{text-decoration:none;outline:none;height:65px;display:block;color:#333;}
+.head h1 a:hover{outline:none;color:#ccc;}
+
+/* ---------------------------------- navi */
+#nav{background:transparent;display:inline-block;padding:0;font:normal 16px trebuchet ms,arial,verdana;text-transform:uppercase;margin:25px 0 0 0;z-index:3;float:right;text-shadow:#fff 0 1px 1px;}
+	
+#nav ul {float: left;list-style: none;margin: 0;padding: 0;}
+#nav li {float: left;list-style: none;margin: 0;padding: 0;}
+#nav ul li {list-style: none;margin: 0 0 0 -1px;padding: 0;}
+#nav li a, #nav li a:link {color:#333;display: block;margin: 0;padding: 8px 10px;border-right: 0;text-decoration: none;}
+#nav li a:hover {background:#fff;color: #000;display: block;margin: 0;padding: 8px 10px;text-decoration: none;}
+#nav li li a, #nav li li a:link, #nav li li a:visited {background: #fff;width: 170px;color: #000;border-bottom:1px solid #ccc;float: none;margin: 0;padding: 8px 10px;text-decoration:none;}
+#nav li li a:hover, #nav li li a:active {background: #D3DCD8;color: #000;padding: 8px 10px;}
+#nav li ul {z-index: 9999;position: absolute;left: -999em;height: auto;width: 190px;margin: 0;padding: 0;-moz-box-shadow:0px 3px 5px #555;-webkit-box-shadow:0px 3px 5px #555;box-shadow:0px 3px 5px #555;}
+#nav li li {font-size:90%; }
+#nav li ul a { width: 160px;}
+#nav li ul a:hover, #nav li ul a:active { }
+#nav li ul ul {margin:-35px 0 0 192px;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {left: -999em;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {left: auto;}
+#nav li:hover, #nav li.sfhover { position: static;}
+#nav .current_page_item a,#nav li a:active {background:#fff;color: #666;display: block;margin: 0;padding:8px 10px;text-decoration: none;}
+
+/* ----------------------------------- front */
+.news,.mews{clear:both;width:100%;background:transparent;padding:0;margin:20px auto 0;}
+.news h3 a{color:#687B72;font:normal 24px/26px trebuchet ms,arial,verdana;;display:block;overflow:hidden;}
+.news h3 a:hover{color:#000;}
+.news .slideimg{height:150px;width:220px;display:block;overflow:hidden;text-align:center;}
+.news .slideimg img{display:block;overflow:hidden;text-align:center;margin:0 auto;height:140px;width:200px;}
+
+#footer h3{}
+.col1,.col11,.col12,.col13,.col14{background:transparent;}
+
+.col2,.col3{width:300px;float:left;margin:10px 0;margin-right:30px;padding:0;font:13px/18px arial,tahoma;background:transparent;}
+.col5{width:300px;float:left;margin:10px 0;margin-right:30px;padding:0;font:13px/18px arial,tahoma;background:transparent;}
+.col4{width:300px;float:right;margin:10px 0;padding:0;font:13px/18px arial,tahoma;background:transparent;}
+.col6{width:300px;float:right;margin:10px 0;padding:0;font:13px/18px arial,tahoma;background:transparent;}
+
+.col1,.col11,.col12,.col13{width:220px;float:left;margin:10px 0;margin-right:25px;padding:0;}
+.col14,.col16{width:220px;float:right;margin:10px 0;padding:0;}
+
+/* ----------------------------------- buttons */
+.read,.more{margin:2px 0;padding:0;border:0;background:transparent url(images/r1.png) 0 0 no-repeat;width:99%;height:41px;display:block;}
+.read a,.more a{display:block;font:normal 18px trebuchet ms,verdana,arial;padding:8px 0 0 8px;}
+.read:hover,.more:hover{background:transparent url(images/r2.png) 0 0 no-repeat;outline:none;}
+
+/* ----------------------------------- h tags */
+h1{font:normal 34px trebuchet ms,arial,verdana;;padding:10px 0;margin:0;text-shadow:#fff 0 1px 1px;}
+h2{font:normal 24px trebuchet ms,arial,verdana;;padding:10px 0;margin:0;text-shadow:#fff 0 1px 1px;}
+h3{clear:both;font:normal 19px trebuchet ms,arial,verdana;;padding:8px 0;margin:0;text-shadow:#fff 0 1px 1px;}
+h4{font:normal 17px trebuchet ms,arial,verdana;;padding:8px 0;margin:0;text-shadow:#fff 0 1px 1px;}
+h5{font:normal 17px trebuchet ms,arial,verdana;;padding:8px 0;margin:0;text-shadow:#fff 0 1px 1px;}
+
+/* ----------------------------------- columns */
+#middle{float:left;width:67%;margin:0;padding:5px 0 0 10px;overflow:hidden;}
+
+/* ----------------------------------- bar */
+#sidebar{float:right;background:transparent;width:23%;margin:0;padding:10px 0;}
+#sidebar p{padding:16px 0;margin:0;}
+#sidebar ul{list-style:none;margin:0;padding:7px 0;}
+#sidebar li{list-style:none;margin:0;padding: 0;}
+#sidebar ul li,#footer ul li{margin: 0;padding:5px 0;}
+#sidebar ul li a{text-decoration:none;color:#687B72;}
+#sidebar h2{color:#333;background:transparent;}
+#sidebar ul li a:hover{color:#333;text-decoration:underline;}
+
+/* ----------------------------------- lists */
+#content p ol,#content p ul{margin:12px 0;padding:10px 0;}
+blockquote{margin:25px 0;padding:0 25px 0 10px;font-style:italic;color:#687B72;border-left:7px double #687B72;font:24px times new roman;}
+#content blockquote p{margin:20px 0;padding:0;}
+
+/* ----------------------------------- date */
+.date{font-size:11px;text-align:right;float:right;margin:-42px 0 0 0;padding:0;}
+.date span.date{color:#333;padding:0 2px 0 4px;}
+.bigdate{font:normal 25px times new roman, georgia,baskerville;color:#687B72;text-decoration:none!important;}
+
+.entry{clear:both;margin:6px 0;padding:5px 0;}
+.entry p{padding:4px 0;margin:5px 0;}
+.green{color:#094426;text-decoration:none;font-style:italic;}
+
+/* ----------------------------------- lists */
+#content p{}
+#content ul{list-style:disc;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul ul{list-style:circle;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul li{margin:0;padding:5px 0 0 15px;}
+#content ul li a,#content a{color:#687B72;text-decoration:none;}
+#content ul li a:hover,#content a:hover{color:#333;text-decoration:underline}
+#content ol{margin:0;padding:12px 0;}
+#content ol li{margin:3px 0;padding:5px 0;list-style-type:upper-roman;}
+
+#content img.wp-smiley{float:none;border:none;padding:0;margin:0;}
+#content img.wp-wink{float:none;border:none;padding:0;margin:0;}
+
+.postspace{clear:both;background:transparent;width:99%;height:32px;margin:0;padding:0;}
+
+/* ----------------------------------- search */
+#searchsubmit{padding:2px;margin:2px 0;font-weight:bold;font-size:0.8em;background:url(images/button-bg.gif) repeat-x; border:1px solid #adadad!important;border-left-color:#ececec!important; border-top-color:#ececec!important;}
+#searchdiv{margin:0;padding:0;}
+#searchform{margin:5px 0;padding:0;overflow:hidden;}
+#s{width:150px;background:transparent;color:#333;border:1px solid #687B72;font:normal 13px arial,tahoma;padding:3px;margin:2px 0;float:left;margin-right:10px;}
+
+/* ----------------------------------- comments */
+#comments{width:100%;padding:12px 0;}
+#comments h3,h3#respond{color:#555;margin-bottom:7px;}
+ol.commentslist{list-style:none;margin:5px 0;}
+.commentslist li{background:transparent;border:1px solid #ccc;margin:7px 0;padding:7px 0;}
+.commentslist li a{font-weight:400;}
+.commentslist li.alt{background:#ccc;}
+.commentslist li:hover{border-color:#888;}
+.commentslist .comment_text{margin:0;line-height:1.4em;overflow:hidden;}
+.comment_text p,.comment_text ul,.comment_text ol,.comment_text blockquote{margin:1em 0;}
+.comment_text ul,.comment_text ol,.comment_text blockquote{margin:0 1em;}
+
+p.author_meta{font-weight:400;font:18px georgia;margin:0 0 0 7px;}
+p.post_meta{font-size:11px;text-align:right;margin:0 7px 0 0;}
+.count{float:left;display:block;width:33px;height:33px;font:33px georgia;color:#333;line-height:33px;}
+
+.commentslist li.author{background:transparent;color:#666;}
+.commentslist li.author a{color:#ddd;}
+.commentslist li.author a:hover{color:#666;}
+#comments_closed{background:#ccc;color:#333;padding:7px 0;margin-top:12px;line-height:1.5em;}
+p.nocomments{margin:0 12px 0 7px;}
+p.nocomments a{color:#ddd;font-weight:bold;text-decoration:underline;}
+p.nocomments a:hover{color:#ccc;}
+ol.pingslist{margin:1.5em 2em;font-size:12px;}
+.pingslist li{color:#7F7F7F;margin:0 0 7px 0;}
+.pingslist li a{font-weight:bold;}
+#commentform p{margin:1em 0;}
+#commentform p a{font-weight:bold;}
+#author,#email,#url,#comment{font:1.1em arial,helvetica,verdana,sans-serif;border:1px solid #ccc;padding:2px;-moz-box-shadow:0px 3px 5px #555;-webkit-box-shadow:0px 3px 5px #555;box-shadow:0px 3px 5px #555;}
+#comment{width:99%;overflow:hidden;}
+#commentform p small{font-size:10px;color:#900;}
+.commentslist code{background:transparent;}
+#commentform textarea{width:99%;height:255px;border:1px solid #ccc;padding:2px 0;margin-top:3px;color:#333;background:transparent ;}
+#commentform #submit{background:transparent;font:normal 22px trebuchet ms,arial,tahoma;color:#333;border:1px solid #ccc;width:200px;height:35px;cursor:pointer;text-transform:uppercase;-moz-box-shadow:0px 3px 5px #555;-webkit-box-shadow:0px 3px 5px #555;box-shadow:0px 3px 5px #555;}
+
+p.comments_link img{margin:0;padding:0;border:none;}
+
+/* ----------------------------------- clearfix */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} .clearfix{display:inline-block;}* html .clearfix{height:1%;}.clearfix{display:block;}
+hr.clear{clear:both;visibility:hidden;margin:0;padding:0;}
+
+/* ----------------------------------- floats */
+.center,.aligncenter{text-align:center;display:block;margin:0 auto;padding:5px;}
+.alignleft,.left{float:left;margin-right:10px;margin-bottom:5px;}
+.alignright,.right{float:right;margin-left:10px;margin-bottom:5px;}
+
+.navigation{color:#333;font:normal 16px Arial,Sans-Serif;padding:8px 0;margin:12px 0;font-variant:small-caps;clear:both;}
+
+/* ----------------------------------- wordpress */
+.cat{margin:16px 0;padding:5px;background:transparent;display:block;}
+.time{float:right;font:1.5em  times new roman, georgia,baskerville;line-height:100%;margin:-30px 0 0 0;padding:2px 0 0 0;width:34px;height:40px;text-align:center;background:transparent url(images/) 0 0 no-repeat;}
+.time a{cursor: help;color:#900;}
+.back{float:right;margin:-40px 0 0 0;padding:0;width:121px;height:32px;background:transparent;}
+.drop{float: left;font: 2.5em  times new roman, georgia,baskerville;line-height:100%;margin:3px 8px 0 0;width:30px;text-align:center;}
+.acronym, abbr, span.caps{ font-size: 0.9em;letter-spacing: .07em;}
+.acronym, abbr, span.caps {cursor: help;}
+.acronym, abbr {border-bottom: 1px dashed #AE9E77;}
+
+table{width:90%;background:transparent;border:1px solid #ccc;color:#ccc;margin:12px 0;}
+caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+td{padding:.3em;border:1px solid #ccc;}
+tr{color:#666;background:transparent;}
+tr.alt,tr.even{background:#fafafa;}
+th{padding:.3em;color:#ccc;background:transparent;border:1px solid #ccc;}
+td a,th a{font-weight:bold;color:#687B72;}
+
+dl{margin:12px 0;border-bottom:1px solid #ccc;padding:0.5em 0;}
+dt{display:inline;margin:9px 0;padding:0;color:#666;font-style:italic;}
+dd{display:block;margin:7px 0;padding:0;}
+dd a{color:#687B72;}
+dd a:hover{color:#333;}
+
+code{padding:0 3px;margin:12px 0;background:transparent;}
+pre{overflow:auto;padding:9px;background:transparent;border:1px solid #333;}
+pre code{padding:0;background:transparent;}
+
+.wp-caption{padding:6px 1px 0 1px;background:transparent;text-align:center;}
+.wp-caption .wp-caption-text{margin:0;padding:0 5px;text-align:right;font-size:.8em;color:#666;}
+.wp-caption img{margin:0 auto;padding:0;border:1px solid #333;}
+.gallery{display:block;text-align:center;margin:18px 0;}
+.gallery img{border:1px solid #333;}
+
+/* ----------------------------------- mid */
+#sobm{clear:both;width:100%;height:83px;display:block;margin:30px auto;padding:0;text-align:center;font:13px/18px arial,tahoma;background:transparent url(images/sobm.png) no-repeat 50% 0;}
+#sobm h2{font:normal 34px georgia,times new roman,georgia,baskerville;text-transform:uppercase;letter-spacing:3px;padding:20px 0;margin:0px auto;text-align:center;text-shadow:#000 0 1px 1px;}
+
+/* ----------------------------------- feedbox */
+.fc1{width:310px;float:left;margin:10px 0;padding:0;font:13px/18px arial,tahoma;background:transparent;text-align:left;display:inline-block;overflow:hidden;}
+.fc2{width:310px;float:left;margin:10px 0 0 30px;padding:0 10px !important;font:13px/18px arial,tahoma;background:white url(images/nlr.jpg) repeat-x 0 0;border:1px solid #fff;border-collapse:separate;border-spacing:0;
+-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;text-align:left;display:inline-block;overflow:hidden;
+-moz-box-shadow:1px 3px 15px #555;-webkit-box-shadow:1px 3px 15px #555;box-shadow:1px 3px 15px #555;}
+.fc3{width:250px;float:right;margin:10px 0;padding:0;font:13px/18px arial,tahoma;background:transparent;text-align:left;display:inline-block;overflow:hidden;}
+
+/* ----------------------------------- news letter */
+#nlr table{width:99%;background:transparent;border:1px solid #fff;color:#333;margin:12px 0;}
+#nlr caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+#nlr td{padding:.3em;border:1px solid #fff;}
+#nlr tr{color:#666;background:transparent;}
+#nlr tr.alt,tr.even{background:#fafafa;}
+#nlr th{padding:.3em;color:#ccc;background:transparent;border:1px solid #fff;}
+#nlr td a,#nlr th a{font-weight:bold;color:#900;}
+#nlr input.sendbutton	{ width:150px;font-weight:bold;  padding:5px; margin: 5px 3px 4px 0pt;font-size:0.8em;background:url(images/button-bg.gif) repeat-x; border:1px solid #adadad!important;border-left-color:#ececec!important; border-top-color:#ececec!important;}
+.sendbutton:hover	{background:#ccc !important;}
+
+/* ----------------------------------- slider */
+#tagline{width:980px;height:43px;padding:10px 20px 0 25px;margin:0;background:transparent url(images/sl.jpg) 92% 0 no-repeat;}
+#tagline h2{font:24px trebuchet ms,arial,verdana;letter-spacing:3px;text-shadow:#fff 0 1px 1px;margin:0;padding:0;}
+
+#item{width:980px;background:transparent;padding:0;margin:0 auto;display:block;height:411px;overflow:hidden;position:relative;}
+#slider{margin:0;padding:0;background:transparent;width:980px;height:290px;}	
+#slider h2 a{font:27px trebuchet ms,arial,verdana;color:#333;text-shadow:#fff 0 1px 1px;}
+#slider .itemtxt{width:47%;overflow:hidden;float:right;display:inline-block;padding:20px 19px 0 0;}	
+#slider .simg{float:left;margin:0;padding:0;display:inline-block;width:45%;}	
+#slider .simg a img{margin:0 auto;padding:0;display:block;}	
+#slider .read{margin:12px 0;padding:0;border:0;background:transparent url(images/r1.png) 0 0 no-repeat;width:50%;height:41px;display:block;}
+#slider .read:hover{background:transparent url(images/r2.png) 0 0 no-repeat;outline:none;}
+
+#htabs{clear:both;width:980px;height:101px;background:transparent url(images/03.jpg) 0 0 no-repeat;margin:12px 0;padding:0;}
+
+#glidercontent{margin:10px 0;border:0;width:100%;height:290px;float:left;}
+.glidecontentwrapper{position:relative;width:100%;height:290px;overflow:hidden;margin:0;background:transparent;}
+.glidecontent{ position:absolute;background:transparent url(images/01b.jpg) 0 0 repeat-x;padding:0;visibility:hidden;width:100%;height:300px;color:#333;margin:0;z-index:-1;}
+
+#home .glidecontenttoggler{width:100%;margin:10px 0;padding:0;background:transparent;}
+#home .glidecontenttoggler a{display:inline-block;float:left;overflow:hidden;text-decoration:none;padding:0;margin:0;width:245px;height:91px;font:26px trebuchet ms,arial,verdana;letter-spacing:-2px;color:#545B58;text-shadow:#fff 0 1px 1px;}
+#home .glidecontenttoggler a.selected,.glidecontenttoggler a:hover{background:transparent url(images/03a.png) 0 0 no-repeat;border:0;color:#778F84;outline:none;}
+#home .glidecontenttoggler a.toc{display:block;width:245px;height:91px;padding:28px 0;margin:0;overflow:hidden !important;}
+#home .glidecontenttoggler a.prev,.glidecontenttoggler a.next{display:none;}
+#home .glidecontenttoggler a.prev:hover,.glidecontenttoggler a.next:hover,#home .glidecontenttoggler a.toc:hover{color:#778F84;outline:none;}
+
+/* ----------------------------------- slider post */
+#slidebox{width:600px;height:140px;padding:10px;background:#fff;border-top:3px solid #687B72;position:fixed;z-index:999 !important;bottom:50px;right:-830px;-moz-box-shadow:-2px 0px 5px #aaa;-webkit-box-shadow:-2px 0px 5px #aaa;box-shadow:-2px 0px 5px #aaa;}
+#slidebox p, a.more{font-size:11px;text-transform:uppercase;font-family: Arial,Helvetica,sans-serif;letter-spacing:1px;color:#555;}
+#slidebox ul{color:#687B72;font-size:18px;margin:0 20px 20px 0;list-style:none;}
+a.close{background:transparent url(images/close.gif) no-repeat top left;width:13px;height:13px;position:absolute;cursor:pointer;top:10px;right:10px;}
+a.close:hover{background-position:0px -13px;}
+
+/* ----------------------------------- footer */
+#footer{clear:both;background:transparent url(images/01c.jpg) 50% 0 no-repeat;width:100%;margin:30px auto 0;padding:21px 0;}
+#footer .inner{background:transparent url(images/sl.jpg) 0% 90% no-repeat;color:#666;width:960px;margin:0 auto;padding:5px 0;}
+
+#footer ul,.news ul,.mews ul,#footer li,.news li,.mews li{list-style:none;margin:0;padding:0;}
+#footer ul li,.news ul li,.mews ul li{margin: 0;padding:3px 0;}
+#footer ul li a{color:#666;}
+#footer ul li a:hover{color:#000;}
+
+#footer .creditl ul{list-style:none;margin:0;padding:0;font-size:90%;}
+#footer .creditl ul li{margin:0;padding:3px 20px 0 0;display:inline-block;float:left;}
+#footer .creditl ul li a{color:#666;}
+#footer .creditl ul li a:hover{color:#000;}
+
+.fix{clear:both;background:transparent;margin:15px 0;padding:4px 0;display:block;}
+.creditl{background:transparent;margin:5px 0;padding:4px 0;font:normal 16px arial;color:#ccc;display:inline-block;float:right;}
+.credits{background:transparent;margin:5px 0;padding:4px 0;text-align:left;display:inline-block;float:left;}
+.credits a{text-decoration:none;outline:none;width:100px;height:110px;text-indent:-90000px;display:block;}
+.creditl a{color:#ccc;}
+.copy{clear:right;background:transparent;margin:5px 0;padding:4px 0;font:normal 10px arial;color:#99AAA2;display:inline-block;float:right;}
+.copy a{color:#99AAA2;}
